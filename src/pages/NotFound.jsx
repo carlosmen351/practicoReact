@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import notFound from '@logos/404.jpg';
 
 const NoyFound = () => {
   return (
     <div>
-      <img src="https://dam.muyinteresante.com.mx/wp-content/uploads/2020/04/error-404-770x513.jpg" alt="" />
+      <img src={notFound} alt="" />
     </div>
   )
 }
